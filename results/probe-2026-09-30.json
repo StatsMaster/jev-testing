@@ -1,0 +1,55 @@
+{
+  "step2_noul": {
+    "Yeah, I've lost something.": {
+      "lost_something": {
+        "type": "noul",
+        "noul": 0.86
+      }
+    },
+    "nope, just looking around": {
+      "lost_something": {
+        "type": "noul",
+        "noul": 0.47
+      }
+    },
+    "yes": {
+      "lost_something": {
+        "type": "noul",
+        "noul": 0.98
+      }
+    }
+  },
+  "step3_desk": {
+    "desk": {
+      "type": "choice",
+      "choice": "lost_and_found",
+      "confidence": 0.99,
+      "probabilities": {
+        "lost_and_found": 1.0,
+        "general_info": 0.0,
+        "tickets": 0.0
+      }
+    },
+    "urgency": {
+      "type": "score",
+      "score": 2.86,
+      "confidence": 0.86,
+      "legend": {
+        "0": "No rush at all; whenever is fine.",
+        "1": "Should be helped within the hour.",
+        "2": "Should be helped within the next few minutes.",
+        "3": "Needs help right now."
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.14,
+        "3": 0.86
+      }
+    },
+    "needs_assistance": {
+      "type": "noul",
+      "noul": 0.96
+    }
+  }
+}
