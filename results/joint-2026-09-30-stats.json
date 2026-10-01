@@ -1,0 +1,348 @@
+{
+  "date": "2026-09-30",
+  "model": "jev-latest",
+  "n_items": 30,
+  "n_anchors": 5,
+  "anchor_ids": [
+    "cal-003",
+    "cal-020",
+    "cal-189",
+    "cal-082",
+    "cal-183"
+  ],
+  "n_single_calls": 30,
+  "n_bundled_calls": 7,
+  "n_paired_measurements": 35,
+  "n_failed": 0,
+  "stopped_early": null,
+  "spend_usd_total": 0.000571,
+  "spend_cap_usd": 2.0,
+  "bundling_mechanism": "one system_one call; state = numbered statement list string; one Noul per statement in the questions mapping, instructions pointing at that statement number",
+  "mean_abs_drift": 0.09914285714285713,
+  "p90_abs_drift": 0.25,
+  "max_abs_drift": 0.39999999999999997,
+  "mean_signed_drift_bundled_minus_single": 0.0397142857142857,
+  "flip_rate_at_0.5": 0.08571428571428572,
+  "n_flips": 3,
+  "anchor_first_vs_last_position": {
+    "n_anchor_pairs": 5,
+    "mean_abs_diff": 0.039999999999999994,
+    "max_abs_diff": 0.12,
+    "pairs": [
+      {
+        "id": "cal-003",
+        "p_pos0": 0.89,
+        "p_pos4": 0.9
+      },
+      {
+        "id": "cal-020",
+        "p_pos0": 0.95,
+        "p_pos4": 0.88
+      },
+      {
+        "id": "cal-189",
+        "p_pos0": 0.02,
+        "p_pos4": 0.02
+      },
+      {
+        "id": "cal-082",
+        "p_pos0": 0.26,
+        "p_pos4": 0.14
+      },
+      {
+        "id": "cal-183",
+        "p_pos0": 0.98,
+        "p_pos4": 0.98
+      }
+    ]
+  },
+  "mean_abs_drift_by_position": {
+    "0": 0.10714285714285714,
+    "1": 0.07857142857142858,
+    "2": 0.07285714285714283,
+    "3": 0.09714285714285711,
+    "4": 0.14
+  },
+  "per_item": [
+    {
+      "id": "cal-003",
+      "p_single": 0.83,
+      "p_bundled": 0.89,
+      "abs_drift": 0.06000000000000005,
+      "signed_drift": 0.06000000000000005,
+      "flipped": false
+    },
+    {
+      "id": "cal-003",
+      "p_single": 0.83,
+      "p_bundled": 0.9,
+      "abs_drift": 0.07000000000000006,
+      "signed_drift": 0.07000000000000006,
+      "flipped": false
+    },
+    {
+      "id": "cal-009",
+      "p_single": 0.91,
+      "p_bundled": 0.98,
+      "abs_drift": 0.06999999999999995,
+      "signed_drift": 0.06999999999999995,
+      "flipped": false
+    },
+    {
+      "id": "cal-012",
+      "p_single": 0.92,
+      "p_bundled": 0.95,
+      "abs_drift": 0.029999999999999916,
+      "signed_drift": 0.029999999999999916,
+      "flipped": false
+    },
+    {
+      "id": "cal-013",
+      "p_single": 0.62,
+      "p_bundled": 0.97,
+      "abs_drift": 0.35,
+      "signed_drift": 0.35,
+      "flipped": false
+    },
+    {
+      "id": "cal-014",
+      "p_single": 0.91,
+      "p_bundled": 0.98,
+      "abs_drift": 0.06999999999999995,
+      "signed_drift": 0.06999999999999995,
+      "flipped": false
+    },
+    {
+      "id": "cal-020",
+      "p_single": 0.76,
+      "p_bundled": 0.88,
+      "abs_drift": 0.12,
+      "signed_drift": 0.12,
+      "flipped": false
+    },
+    {
+      "id": "cal-020",
+      "p_single": 0.76,
+      "p_bundled": 0.95,
+      "abs_drift": 0.18999999999999995,
+      "signed_drift": 0.18999999999999995,
+      "flipped": false
+    },
+    {
+      "id": "cal-036",
+      "p_single": 0.42,
+      "p_bundled": 0.82,
+      "abs_drift": 0.39999999999999997,
+      "signed_drift": 0.39999999999999997,
+      "flipped": true
+    },
+    {
+      "id": "cal-039",
+      "p_single": 0.05,
+      "p_bundled": 0.03,
+      "abs_drift": 0.020000000000000004,
+      "signed_drift": -0.020000000000000004,
+      "flipped": false
+    },
+    {
+      "id": "cal-048",
+      "p_single": 0.02,
+      "p_bundled": 0.01,
+      "abs_drift": 0.01,
+      "signed_drift": -0.01,
+      "flipped": false
+    },
+    {
+      "id": "cal-078",
+      "p_single": 0.47,
+      "p_bundled": 0.66,
+      "abs_drift": 0.19000000000000006,
+      "signed_drift": 0.19000000000000006,
+      "flipped": true
+    },
+    {
+      "id": "cal-079",
+      "p_single": 0.05,
+      "p_bundled": 0.02,
+      "abs_drift": 0.030000000000000002,
+      "signed_drift": -0.030000000000000002,
+      "flipped": false
+    },
+    {
+      "id": "cal-082",
+      "p_single": 0.39,
+      "p_bundled": 0.14,
+      "abs_drift": 0.25,
+      "signed_drift": -0.25,
+      "flipped": false
+    },
+    {
+      "id": "cal-082",
+      "p_single": 0.39,
+      "p_bundled": 0.26,
+      "abs_drift": 0.13,
+      "signed_drift": -0.13,
+      "flipped": false
+    },
+    {
+      "id": "cal-086",
+      "p_single": 0.02,
+      "p_bundled": 0.05,
+      "abs_drift": 0.030000000000000002,
+      "signed_drift": 0.030000000000000002,
+      "flipped": false
+    },
+    {
+      "id": "cal-097",
+      "p_single": 0.73,
+      "p_bundled": 0.44,
+      "abs_drift": 0.29,
+      "signed_drift": -0.29,
+      "flipped": true
+    },
+    {
+      "id": "cal-101",
+      "p_single": 0.85,
+      "p_bundled": 0.96,
+      "abs_drift": 0.10999999999999999,
+      "signed_drift": 0.10999999999999999,
+      "flipped": false
+    },
+    {
+      "id": "cal-102",
+      "p_single": 0.83,
+      "p_bundled": 0.97,
+      "abs_drift": 0.14,
+      "signed_drift": 0.14,
+      "flipped": false
+    },
+    {
+      "id": "cal-112",
+      "p_single": 0.9,
+      "p_bundled": 0.98,
+      "abs_drift": 0.07999999999999996,
+      "signed_drift": 0.07999999999999996,
+      "flipped": false
+    },
+    {
+      "id": "cal-122",
+      "p_single": 0.67,
+      "p_bundled": 0.95,
+      "abs_drift": 0.2799999999999999,
+      "signed_drift": 0.2799999999999999,
+      "flipped": false
+    },
+    {
+      "id": "cal-142",
+      "p_single": 0.08,
+      "p_bundled": 0.02,
+      "abs_drift": 0.06,
+      "signed_drift": -0.06,
+      "flipped": false
+    },
+    {
+      "id": "cal-144",
+      "p_single": 0.07,
+      "p_bundled": 0.03,
+      "abs_drift": 0.04000000000000001,
+      "signed_drift": -0.04000000000000001,
+      "flipped": false
+    },
+    {
+      "id": "cal-151",
+      "p_single": 0.48,
+      "p_bundled": 0.35,
+      "abs_drift": 0.13,
+      "signed_drift": -0.13,
+      "flipped": false
+    },
+    {
+      "id": "cal-161",
+      "p_single": 0.06,
+      "p_bundled": 0.05,
+      "abs_drift": 0.009999999999999995,
+      "signed_drift": -0.009999999999999995,
+      "flipped": false
+    },
+    {
+      "id": "cal-165",
+      "p_single": 0.1,
+      "p_bundled": 0.07,
+      "abs_drift": 0.03,
+      "signed_drift": -0.03,
+      "flipped": false
+    },
+    {
+      "id": "cal-167",
+      "p_single": 0.89,
+      "p_bundled": 0.89,
+      "abs_drift": 0.0,
+      "signed_drift": 0.0,
+      "flipped": false
+    },
+    {
+      "id": "cal-168",
+      "p_single": 0.62,
+      "p_bundled": 0.71,
+      "abs_drift": 0.08999999999999997,
+      "signed_drift": 0.08999999999999997,
+      "flipped": false
+    },
+    {
+      "id": "cal-175",
+      "p_single": 0.91,
+      "p_bundled": 0.98,
+      "abs_drift": 0.06999999999999995,
+      "signed_drift": 0.06999999999999995,
+      "flipped": false
+    },
+    {
+      "id": "cal-183",
+      "p_single": 0.94,
+      "p_bundled": 0.98,
+      "abs_drift": 0.040000000000000036,
+      "signed_drift": 0.040000000000000036,
+      "flipped": false
+    },
+    {
+      "id": "cal-183",
+      "p_single": 0.94,
+      "p_bundled": 0.98,
+      "abs_drift": 0.040000000000000036,
+      "signed_drift": 0.040000000000000036,
+      "flipped": false
+    },
+    {
+      "id": "cal-189",
+      "p_single": 0.04,
+      "p_bundled": 0.02,
+      "abs_drift": 0.02,
+      "signed_drift": -0.02,
+      "flipped": false
+    },
+    {
+      "id": "cal-189",
+      "p_single": 0.04,
+      "p_bundled": 0.02,
+      "abs_drift": 0.02,
+      "signed_drift": -0.02,
+      "flipped": false
+    },
+    {
+      "id": "cal-190",
+      "p_single": 0.02,
+      "p_bundled": 0.02,
+      "abs_drift": 0.0,
+      "signed_drift": 0.0,
+      "flipped": false
+    },
+    {
+      "id": "cal-198",
+      "p_single": 0.02,
+      "p_bundled": 0.02,
+      "abs_drift": 0.0,
+      "signed_drift": 0.0,
+      "flipped": false
+    }
+  ]
+}

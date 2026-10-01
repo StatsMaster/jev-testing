@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "cal-001",
+    "text": "Paris is the capital of France.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-002",
+    "text": "Tokyo is the capital of Japan.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-003",
+    "text": "The Nile is the longest river in Africa.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-004",
+    "text": "Mount Everest is the tallest mountain on Earth.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-005",
+    "text": "Australia is both a country and a continent.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-006",
+    "text": "The Sahara is the largest hot desert in the world.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-007",
+    "text": "Brazil is the largest country in South America.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-008",
+    "text": "Canada has the longest coastline of any country.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-009",
+    "text": "The Pacific Ocean is the largest ocean on Earth.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-010",
+    "text": "London is the capital of the United Kingdom.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-011",
+    "text": "Egypt is in Africa.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-012",
+    "text": "The Amazon rainforest is mostly in Brazil.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-013",
+    "text": "Iceland is an island nation in the North Atlantic.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-014",
+    "text": "The Mississippi River flows through the United States.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-015",
+    "text": "Rome is the capital of Italy.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-016",
+    "text": "The Andes are the longest mountain range in the world.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-017",
+    "text": "Greenland is the largest island in the world.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-018",
+    "text": "India is the most populous country in the world.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-019",
+    "text": "The Danube flows through Budapest.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-020",
+    "text": "New Zealand is southeast of Australia.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-021",
+    "text": "The Alps are in Europe.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-022",
+    "text": "Cairo is the capital of Egypt.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-023",
+    "text": "Mexico borders the United States to the south.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-024",
+    "text": "The Mediterranean Sea lies between Europe and Africa.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-025",
+    "text": "Oslo is the capital of Norway.",
+    "true_label": 1,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-026",
+    "text": "Berlin is the capital of France.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-027",
+    "text": "The capital of Australia is Sydney.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-028",
+    "text": "Mount Kilimanjaro is in Asia.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-029",
+    "text": "The Amazon River is in Africa.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-030",
+    "text": "Canada is south of Mexico.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-031",
+    "text": "The Sahara Desert is in South America.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-032",
+    "text": "Madrid is the capital of Portugal.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-033",
+    "text": "Japan is in Europe.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-034",
+    "text": "The Arctic Ocean is the largest ocean.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-035",
+    "text": "The Eiffel Tower is in London.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-036",
+    "text": "Antarctica is the smallest continent.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-037",
+    "text": "The Rhine flows through Paris.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-038",
+    "text": "Peru is in Europe.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-039",
+    "text": "The capital of Canada is Toronto.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-040",
+    "text": "Mount Fuji is in China.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-041",
+    "text": "The Dead Sea is a freshwater lake.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-042",
+    "text": "Norway is in South America.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-043",
+    "text": "The Grand Canyon is in Mexico.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-044",
+    "text": "Venice is the capital of Italy.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-045",
+    "text": "The Volga is the longest river in Africa.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-046",
+    "text": "Thailand is an island in the Pacific Ocean.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-047",
+    "text": "The Pyrenees separate France and Italy.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-048",
+    "text": "Cape Town is the capital of Egypt.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-049",
+    "text": "The Gobi Desert is in North America.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-050",
+    "text": "Hawaii is south of the equator.",
+    "true_label": 0,
+    "domain": "geography",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-051",
+    "text": "Seven plus five equals twelve.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-052",
+    "text": "Nine times six equals fifty-four.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-053",
+    "text": "One hundred divided by four equals twenty-five.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-054",
+    "text": "Fifteen minus eight equals seven.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-055",
+    "text": "Three squared equals nine.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-056",
+    "text": "Two to the power of ten equals one thousand twenty-four.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-057",
+    "text": "Forty-nine is seven times seven.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-058",
+    "text": "Twelve times twelve equals one hundred forty-four.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-059",
+    "text": "One thousand minus one equals nine hundred ninety-nine.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-060",
+    "text": "Six times seven equals forty-two.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-061",
+    "text": "Eighty-one divided by nine equals nine.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-062",
+    "text": "Twenty-three plus nineteen equals forty-two.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-063",
+    "text": "Five factorial equals one hundred twenty.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-064",
+    "text": "Thirteen times four equals fifty-two.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-065",
+    "text": "Ninety-nine plus one equals one hundred.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-066",
+    "text": "Eight times nine equals seventy-two.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-067",
+    "text": "Fifty divided by five equals ten.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-068",
+    "text": "Eleven squared equals one hundred twenty-one.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-069",
+    "text": "Thirty-six minus fourteen equals twenty-two.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-070",
+    "text": "Four times twenty-five equals one hundred.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-071",
+    "text": "Sixty-three divided by seven equals nine.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-072",
+    "text": "Seventeen plus twenty-eight equals forty-five.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-073",
+    "text": "Two cubed equals eight.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-074",
+    "text": "Ninety divided by six equals fifteen.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-075",
+    "text": "Thirty-three times three equals ninety-nine.",
+    "true_label": 1,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-076",
+    "text": "Seven plus five equals thirteen.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-077",
+    "text": "Nine times six equals fifty-two.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-078",
+    "text": "One hundred divided by four equals twenty.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-079",
+    "text": "Fifteen minus eight equals six.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-080",
+    "text": "Three squared equals twelve.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-081",
+    "text": "Two to the power of ten equals one thousand.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-082",
+    "text": "Forty-nine is eight times seven.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-083",
+    "text": "Twelve times twelve equals one hundred thirty-four.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-084",
+    "text": "One thousand minus one equals nine hundred ninety.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-085",
+    "text": "Six times seven equals forty.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-086",
+    "text": "Eighty-one divided by nine equals eight.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-087",
+    "text": "Twenty-three plus nineteen equals forty.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-088",
+    "text": "Five factorial equals one hundred.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-089",
+    "text": "Thirteen times four equals fifty.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-090",
+    "text": "Ninety-nine plus one equals one hundred one.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-091",
+    "text": "Eight times nine equals seventy.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-092",
+    "text": "Fifty divided by five equals twelve.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-093",
+    "text": "Eleven squared equals one hundred eleven.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-094",
+    "text": "Thirty-six minus fourteen equals twenty.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-095",
+    "text": "Four times twenty-five equals ninety.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-096",
+    "text": "Sixty-three divided by seven equals eight.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-097",
+    "text": "Seventeen plus twenty-eight equals forty-three.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-098",
+    "text": "Two cubed equals nine.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-099",
+    "text": "Ninety divided by six equals twelve.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-100",
+    "text": "Thirty-three times three equals ninety-six.",
+    "true_label": 0,
+    "domain": "arithmetic",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-101",
+    "text": "Water freezes at zero degrees Celsius.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-102",
+    "text": "A bicycle has two wheels.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-103",
+    "text": "Dogs bark.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-104",
+    "text": "The Sun rises in the east.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-105",
+    "text": "Ice floats in water.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-106",
+    "text": "Humans need oxygen to breathe.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-107",
+    "text": "A week has seven days.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-108",
+    "text": "Fish live in water.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-109",
+    "text": "Fire is hot.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-110",
+    "text": "Snow is cold.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-111",
+    "text": "Birds lay eggs.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-112",
+    "text": "A triangle has three sides.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-113",
+    "text": "The Earth orbits the Sun.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-114",
+    "text": "Milk comes from cows.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-115",
+    "text": "A year has twelve months.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-116",
+    "text": "Glass is transparent.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-117",
+    "text": "Bees make honey.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-118",
+    "text": "The human heart pumps blood.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-119",
+    "text": "Wood floats on water.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-120",
+    "text": "A square has four equal sides.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-121",
+    "text": "Rain falls from clouds.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-122",
+    "text": "Cats meow.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-123",
+    "text": "Sugar tastes sweet.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-124",
+    "text": "Night follows day.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-125",
+    "text": "A spider has eight legs.",
+    "true_label": 1,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-126",
+    "text": "Water boils at zero degrees Celsius.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-127",
+    "text": "A bicycle has three wheels.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-128",
+    "text": "Cats bark.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-129",
+    "text": "The Sun rises in the west.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-130",
+    "text": "Ice sinks in water.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-131",
+    "text": "Humans can breathe underwater without equipment.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-132",
+    "text": "A week has eight days.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-133",
+    "text": "Fish live in trees.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-134",
+    "text": "Fire is cold.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-135",
+    "text": "Snow is hot.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-136",
+    "text": "All birds give birth to live babies.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-137",
+    "text": "A triangle has four sides.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-138",
+    "text": "The Sun orbits the Earth.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-139",
+    "text": "Milk comes from rocks.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-140",
+    "text": "A year has ten months.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-141",
+    "text": "Glass is opaque.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-142",
+    "text": "Bees make milk.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-143",
+    "text": "The human heart pumps air.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-144",
+    "text": "Wood always sinks in water.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-145",
+    "text": "A square has three sides.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-146",
+    "text": "Rain falls upward from the ground.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-147",
+    "text": "Cats roar.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-148",
+    "text": "Sugar tastes salty.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-149",
+    "text": "There are twenty-five hours in a day.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-150",
+    "text": "A spider has six legs.",
+    "true_label": 0,
+    "domain": "commonsense",
+    "difficulty": "easy",
+    "label_note": ""
+  },
+  {
+    "id": "cal-151",
+    "text": "A tomato is a vegetable.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Botanically a fruit; 'vegetable' is the culinary usage."
+  },
+  {
+    "id": "cal-152",
+    "text": "Lightning never strikes the same place twice.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "It regularly strikes tall structures repeatedly."
+  },
+  {
+    "id": "cal-153",
+    "text": "Goldfish have a three-second memory.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Studies show memory lasting months."
+  },
+  {
+    "id": "cal-154",
+    "text": "Humans only use ten percent of their brains.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Neuromyth; the whole brain is active."
+  },
+  {
+    "id": "cal-155",
+    "text": "Cracking your knuckles causes arthritis.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "No causal evidence in the literature."
+  },
+  {
+    "id": "cal-156",
+    "text": "Bulls are enraged by the color red.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Cattle are red-green colorblind; movement provokes them."
+  },
+  {
+    "id": "cal-157",
+    "text": "Shaving makes hair grow back thicker.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Stubble only feels coarser."
+  },
+  {
+    "id": "cal-158",
+    "text": "The Great Wall of China is visible from the Moon with the naked eye.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Astronauts confirm it is not."
+  },
+  {
+    "id": "cal-159",
+    "text": "Dogs see only in black and white.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Dogs have dichromatic (blue/yellow) vision."
+  },
+  {
+    "id": "cal-160",
+    "text": "Sugar makes children hyperactive.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Controlled trials find no causal effect."
+  },
+  {
+    "id": "cal-161",
+    "text": "Albert Einstein failed mathematics in school.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "His grades in math were excellent."
+  },
+  {
+    "id": "cal-162",
+    "text": "Vikings wore horned helmets into battle.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "No archaeological evidence; a 19th-century invention."
+  },
+  {
+    "id": "cal-163",
+    "text": "Ostriches bury their heads in the sand when scared.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "They do not do this."
+  },
+  {
+    "id": "cal-164",
+    "text": "Bats are blind.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Most bats can see; many see well."
+  },
+  {
+    "id": "cal-165",
+    "text": "You lose most of your body heat through your head.",
+    "true_label": 0,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Heat loss is proportional to exposed area."
+  },
+  {
+    "id": "cal-166",
+    "text": "Honey never spoils.",
+    "true_label": 1,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Edible honey has been found in ancient Egyptian tombs."
+  },
+  {
+    "id": "cal-167",
+    "text": "There are more possible chess games than atoms in the observable universe.",
+    "true_label": 1,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "The Shannon number (~10^120) exceeds ~10^80 atoms."
+  },
+  {
+    "id": "cal-168",
+    "text": "Hot water can freeze faster than cold water.",
+    "true_label": 1,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "The Mpemba effect, under some conditions."
+  },
+  {
+    "id": "cal-169",
+    "text": "Bananas are slightly radioactive.",
+    "true_label": 1,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "They contain potassium-40."
+  },
+  {
+    "id": "cal-170",
+    "text": "Oxford University is older than the Aztec Empire.",
+    "true_label": 1,
+    "domain": "myths",
+    "difficulty": "ambiguous",
+    "label_note": "Teaching at Oxford dates to 1096; Tenochtitlan founded 1325."
+  },
+  {
+    "id": "cal-171",
+    "text": "Paris is not the capital of Italy.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-172",
+    "text": "The Moon is not made of cheese.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-173",
+    "text": "Water does not boil at zero degrees Celsius.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-174",
+    "text": "A bicycle does not have three wheels.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-175",
+    "text": "Sharks are not mammals.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-176",
+    "text": "The capital of Japan is not Kyoto.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-177",
+    "text": "Seven times eight is not fifty-four.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-178",
+    "text": "Light does not travel slower than sound.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-179",
+    "text": "Humans do not have four lungs.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-180",
+    "text": "The Pacific is not the smallest ocean.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-181",
+    "text": "Ice does not sink in water.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-182",
+    "text": "A triangle does not have four sides.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-183",
+    "text": "The Sun does not orbit the Earth.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-184",
+    "text": "Antarctica is not in the Northern Hemisphere.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-185",
+    "text": "Twelve divided by four is not five.",
+    "true_label": 1,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-186",
+    "text": "Paris is not the capital of France.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-187",
+    "text": "Water does not freeze at zero degrees Celsius.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-188",
+    "text": "The Earth is not round.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-189",
+    "text": "Seven plus five is not twelve.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-190",
+    "text": "Humans do not need oxygen to survive.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-191",
+    "text": "The Sun does not rise in the east.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-192",
+    "text": "A week does not have seven days.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-193",
+    "text": "Fish do not live in water.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-194",
+    "text": "Two plus two is not four.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-195",
+    "text": "Penguins are not birds.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-196",
+    "text": "The Nile is not a river.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-197",
+    "text": "Gold is not a metal.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-198",
+    "text": "A square does not have four equal sides.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-199",
+    "text": "Sound does not need a medium to travel through.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  },
+  {
+    "id": "cal-200",
+    "text": "The human heart is not a muscle.",
+    "true_label": 0,
+    "domain": "negation",
+    "difficulty": "negated",
+    "label_note": ""
+  }
+]
