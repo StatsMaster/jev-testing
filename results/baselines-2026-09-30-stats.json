@@ -1,0 +1,209 @@
+{
+  "date": "2026-09-30",
+  "n_items": 200,
+  "label_balance": {
+    "n_true": 95,
+    "n_false": 105
+  },
+  "jev": {
+    "model": "jev-latest",
+    "n": 200,
+    "brier": 0.025911,
+    "ece_10bin": 0.08520000000000004,
+    "accuracy_at_0.5": 0.98,
+    "mean_latency_s": 0.27053,
+    "spend_usd_total": 0.002609,
+    "cost_per_1k_decisions_usd": 0.013044570000000002
+  },
+  "constrained_llm": {
+    "model": "mistralai/mistral-nemo",
+    "price_note": "verified 2026-09-30 via GET /api/v1/models: $0.019/M input, $0.03/M output",
+    "prompt": "Decide whether the following statement is TRUE or FALSE.\nReply with ONLY a single decimal number between 0 and 1: your probability that the statement is TRUE.\nOutput the number and nothing else -- no words, no explanation, no punctuation around it.\n\nStatement: {text}",
+    "n_items": 200,
+    "n_success": 200,
+    "n_failed": 0,
+    "n_unparseable": 0,
+    "stopped_early": null,
+    "brier": 0.22697,
+    "ece_10bin": 0.187,
+    "reliability_table": [
+      {
+        "bin": [
+          0.0,
+          0.1
+        ],
+        "n": 89,
+        "mean_p": 0.00033707865168539324,
+        "obs_freq": 0.23595505617977527
+      },
+      {
+        "bin": [
+          0.1,
+          0.2
+        ],
+        "n": 1,
+        "mean_p": 0.1,
+        "obs_freq": 0.0
+      },
+      {
+        "bin": [
+          0.2,
+          0.3
+        ],
+        "n": 5,
+        "mean_p": 0.2,
+        "obs_freq": 0.2
+      },
+      {
+        "bin": [
+          0.3,
+          0.4
+        ],
+        "n": 0,
+        "mean_p": null,
+        "obs_freq": null
+      },
+      {
+        "bin": [
+          0.4,
+          0.5
+        ],
+        "n": 1,
+        "mean_p": 0.4,
+        "obs_freq": 0.0
+      },
+      {
+        "bin": [
+          0.5,
+          0.6
+        ],
+        "n": 26,
+        "mean_p": 0.5,
+        "obs_freq": 0.5769230769230769
+      },
+      {
+        "bin": [
+          0.6,
+          0.7
+        ],
+        "n": 1,
+        "mean_p": 0.6,
+        "obs_freq": 0.0
+      },
+      {
+        "bin": [
+          0.7,
+          0.8
+        ],
+        "n": 0,
+        "mean_p": null,
+        "obs_freq": null
+      },
+      {
+        "bin": [
+          0.8,
+          0.9
+        ],
+        "n": 1,
+        "mean_p": 0.8,
+        "obs_freq": 0.0
+      },
+      {
+        "bin": [
+          0.9,
+          1.0
+        ],
+        "n": 76,
+        "mean_p": 0.9280263157894737,
+        "obs_freq": 0.7631578947368421
+      }
+    ],
+    "accuracy_at_0.5": 0.735,
+    "mean_latency_s": 1.383055,
+    "spend_usd_total": 0.000322,
+    "spend_cap_usd": 2.0,
+    "cost_per_1k_decisions_usd": 0.0016096929999999982,
+    "parse_note": "first float in [0,1] via regex; unparseable outputs are failures, never imputed"
+  },
+  "constants": {
+    "always_0.5": {
+      "p": 0.5,
+      "n": 200,
+      "brier": 0.25,
+      "ece_10bin": 0.025000000000000022,
+      "accuracy_at_0.5": 0.475,
+      "mean_latency_s": 0.0,
+      "cost_per_1k_decisions_usd": 0.0
+    },
+    "base_rate": {
+      "p": 0.475,
+      "n": 200,
+      "brier": 0.249375,
+      "ece_10bin": 0.0,
+      "accuracy_at_0.5": 0.525,
+      "mean_latency_s": 0.0,
+      "cost_per_1k_decisions_usd": 0.0
+    },
+    "majority_class": {
+      "p": 0.0,
+      "n": 200,
+      "brier": 0.475,
+      "ece_10bin": 0.475,
+      "accuracy_at_0.5": 0.525,
+      "mean_latency_s": 0.0,
+      "cost_per_1k_decisions_usd": 0.0
+    }
+  },
+  "symbolic_arithmetic": {
+    "n_arithmetic": 50,
+    "n_parsed": 50,
+    "n_failed_parse": 0,
+    "failed": [],
+    "brier_on_arithmetic_subset": 0.0,
+    "note": "exact rational arithmetic on parsed English word-numbers; p in {0.0, 1.0}; failures would be excluded, not imputed",
+    "jev_brier_on_arithmetic_subset": 0.050587999999999994,
+    "jev_n_arithmetic": 50
+  },
+  "comparison_table": [
+    {
+      "baseline": "jev (Noul)",
+      "brier": 0.025911,
+      "ece_10bin": 0.08520000000000004,
+      "accuracy_at_0.5": 0.98,
+      "mean_latency_s": 0.27053,
+      "cost_per_1k_decisions_usd": 0.013044570000000002
+    },
+    {
+      "baseline": "constrained LLM (mistralai/mistral-nemo)",
+      "brier": 0.22697,
+      "ece_10bin": 0.187,
+      "accuracy_at_0.5": 0.735,
+      "mean_latency_s": 1.383055,
+      "cost_per_1k_decisions_usd": 0.0016096929999999982
+    },
+    {
+      "baseline": "constant always_0.5 (p=0.5)",
+      "brier": 0.25,
+      "ece_10bin": 0.025000000000000022,
+      "accuracy_at_0.5": 0.475,
+      "mean_latency_s": 0.0,
+      "cost_per_1k_decisions_usd": 0.0
+    },
+    {
+      "baseline": "constant base_rate (p=0.475)",
+      "brier": 0.249375,
+      "ece_10bin": 0.0,
+      "accuracy_at_0.5": 0.525,
+      "mean_latency_s": 0.0,
+      "cost_per_1k_decisions_usd": 0.0
+    },
+    {
+      "baseline": "constant majority_class (p=0.0)",
+      "brier": 0.475,
+      "ece_10bin": 0.475,
+      "accuracy_at_0.5": 0.525,
+      "mean_latency_s": 0.0,
+      "cost_per_1k_decisions_usd": 0.0
+    }
+  ]
+}
