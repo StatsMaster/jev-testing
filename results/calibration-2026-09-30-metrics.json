@@ -1,0 +1,124 @@
+{
+  "n_items": 200,
+  "n_success": 200,
+  "n_failed": 0,
+  "model": "jev-latest",
+  "stopped_early": null,
+  "spend_usd_total": 0.002609,
+  "spend_cap_usd": 2.0,
+  "n_calls_without_any_cost_basis": 0,
+  "cost_note": "cost estimated from input_tokens at $0.042/M (output free); usage.cost was absent from responses",
+  "brier_score": 0.025911,
+  "expected_calibration_error_10bin": 0.08520000000000004,
+  "accuracy_at_0.5": 0.98,
+  "reliability_table": [
+    {
+      "bin": [
+        0.0,
+        0.1
+      ],
+      "n": 83,
+      "mean_p": 0.03951807228915663,
+      "obs_freq": 0.0
+    },
+    {
+      "bin": [
+        0.1,
+        0.2
+      ],
+      "n": 13,
+      "mean_p": 0.13846153846153847,
+      "obs_freq": 0.0
+    },
+    {
+      "bin": [
+        0.2,
+        0.3
+      ],
+      "n": 2,
+      "mean_p": 0.26,
+      "obs_freq": 0.0
+    },
+    {
+      "bin": [
+        0.3,
+        0.4
+      ],
+      "n": 0,
+      "mean_p": null,
+      "obs_freq": null
+    },
+    {
+      "bin": [
+        0.4,
+        0.5
+      ],
+      "n": 3,
+      "mean_p": 0.44333333333333336,
+      "obs_freq": 0.0
+    },
+    {
+      "bin": [
+        0.5,
+        0.6
+      ],
+      "n": 1,
+      "mean_p": 0.5,
+      "obs_freq": 0.0
+    },
+    {
+      "bin": [
+        0.6,
+        0.7
+      ],
+      "n": 5,
+      "mean_p": 0.654,
+      "obs_freq": 0.8
+    },
+    {
+      "bin": [
+        0.7,
+        0.8
+      ],
+      "n": 12,
+      "mean_p": 0.7566666666666667,
+      "obs_freq": 0.9166666666666666
+    },
+    {
+      "bin": [
+        0.8,
+        0.9
+      ],
+      "n": 29,
+      "mean_p": 0.8524137931034482,
+      "obs_freq": 0.9655172413793104
+    },
+    {
+      "bin": [
+        0.9,
+        1.0
+      ],
+      "n": 52,
+      "mean_p": 0.9292307692307692,
+      "obs_freq": 1.0
+    }
+  ],
+  "by_difficulty": {
+    "easy": {
+      "n": 150,
+      "brier": 0.029385333333333333,
+      "accuracy": 0.98
+    },
+    "ambiguous": {
+      "n": 20,
+      "brier": 0.027129999999999998,
+      "accuracy": 0.95
+    },
+    "negated": {
+      "n": 30,
+      "brier": 0.007726666666666668,
+      "accuracy": 1.0
+    }
+  },
+  "mean_latency_s": 0.27053
+}

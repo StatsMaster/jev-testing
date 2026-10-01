@@ -1,0 +1,231 @@
+{
+  "n_calls_planned": 144,
+  "n_calls_made": 144,
+  "n_failed": 0,
+  "model": "jev-latest",
+  "stopped_early": null,
+  "spend_usd_total": 0.001949,
+  "spend_cap_usd": 2.0,
+  "n_calls_without_any_cost_basis": 0,
+  "cost_note": "cost estimated from input_tokens at $0.042/M (output free); usage.cost was absent from responses",
+  "phase1_brier_reference": 0.026,
+  "phase1_brier_note": "reference only: Brier of the 200 original Phase 1 items (0.026)",
+  "by_variant_class": {
+    "paraphrase": {
+      "n": 48,
+      "n_success": 48,
+      "n_failed": 0,
+      "abs_shift_vs_original": {
+        "mean": 0.06499999999999999,
+        "p50": 0.024999999999999967,
+        "p90": 0.12,
+        "max": 0.75
+      },
+      "flip_rate_at_0.5_vs_original_decision": 0.041666666666666664,
+      "n_flips": 2,
+      "brier_score_vs_labels": 0.0397625,
+      "accuracy_at_0.5_vs_labels": 0.9583333333333334,
+      "mean_latency_s": 0.17341666666666666
+    },
+    "padding": {
+      "n": 48,
+      "n_success": 48,
+      "n_failed": 0,
+      "abs_shift_vs_original": {
+        "mean": 0.32458333333333333,
+        "p50": 0.29500000000000004,
+        "p90": 0.48300000000000004,
+        "max": 0.51
+      },
+      "flip_rate_at_0.5_vs_original_decision": 0.4166666666666667,
+      "n_flips": 20,
+      "brier_score_vs_labels": 0.18835416666666668,
+      "accuracy_at_0.5_vs_labels": 0.625,
+      "mean_latency_s": 0.18533333333333335
+    },
+    "adversarial": {
+      "n": 48,
+      "n_success": 48,
+      "n_failed": 0,
+      "abs_shift_vs_original": {
+        "mean": 0.15770833333333334,
+        "p50": 0.12,
+        "p90": 0.3190000000000002,
+        "max": 0.41000000000000003
+      },
+      "flip_rate_at_0.5_vs_original_decision": 0.020833333333333332,
+      "n_flips": 1,
+      "brier_score_vs_labels": 0.07849791666666667,
+      "accuracy_at_0.5_vs_labels": 0.9791666666666666,
+      "mean_latency_s": 0.17914583333333334
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "n": 48,
+      "n_success": 48,
+      "n_failed": 0,
+      "abs_shift_vs_original": {
+        "mean": 0.17145833333333335,
+        "p50": 0.12,
+        "p90": 0.43600000000000005,
+        "max": 0.53
+      },
+      "flip_rate_at_0.5_vs_original_decision": 0.1875,
+      "n_flips": 9,
+      "brier_score_vs_labels": 0.09497500000000002,
+      "accuracy_at_0.5_vs_labels": 0.8333333333333334,
+      "mean_latency_s": 0.19389583333333335
+    },
+    "ambiguous": {
+      "n": 48,
+      "n_success": 48,
+      "n_failed": 0,
+      "abs_shift_vs_original": {
+        "mean": 0.14520833333333333,
+        "p50": 0.09000000000000002,
+        "p90": 0.30300000000000005,
+        "max": 0.75
+      },
+      "flip_rate_at_0.5_vs_original_decision": 0.125,
+      "n_flips": 6,
+      "brier_score_vs_labels": 0.09352708333333333,
+      "accuracy_at_0.5_vs_labels": 0.8958333333333334,
+      "mean_latency_s": 0.179875
+    },
+    "negated": {
+      "n": 48,
+      "n_success": 48,
+      "n_failed": 0,
+      "abs_shift_vs_original": {
+        "mean": 0.230625,
+        "p50": 0.235,
+        "p90": 0.48,
+        "max": 0.51
+      },
+      "flip_rate_at_0.5_vs_original_decision": 0.16666666666666666,
+      "n_flips": 8,
+      "brier_score_vs_labels": 0.11811250000000001,
+      "accuracy_at_0.5_vs_labels": 0.8333333333333334,
+      "mean_latency_s": 0.164125
+    }
+  },
+  "overall": {
+    "n": 144,
+    "n_success": 144,
+    "n_failed": 0,
+    "abs_shift_vs_original": {
+      "mean": 0.18243055555555554,
+      "p50": 0.135,
+      "p90": 0.42700000000000016,
+      "max": 0.75
+    },
+    "flip_rate_at_0.5_vs_original_decision": 0.1597222222222222,
+    "n_flips": 23,
+    "brier_score_vs_labels": 0.10220486111111111,
+    "accuracy_at_0.5_vs_labels": 0.8541666666666666,
+    "mean_latency_s": 0.17929861111111112
+  },
+  "largest_shifts": [
+    {
+      "item_id": "cal-170",
+      "variant_class": "paraphrase",
+      "label": 1,
+      "p_original": 0.88,
+      "p_new": 0.13,
+      "abs_shift": 0.75,
+      "flipped": true,
+      "variant_text": "The Aztec Empire came into existence after Oxford University was founded."
+    },
+    {
+      "item_id": "cal-094",
+      "variant_class": "paraphrase",
+      "label": 0,
+      "p_original": 0.87,
+      "p_new": 0.34,
+      "abs_shift": 0.53,
+      "flipped": true,
+      "variant_text": "Subtracting fourteen from thirty-six leaves twenty."
+    },
+    {
+      "item_id": "cal-184",
+      "variant_class": "padding",
+      "label": 1,
+      "p_original": 0.96,
+      "p_new": 0.45,
+      "abs_shift": 0.51,
+      "flipped": true,
+      "variant_text": "Antarctica is not in the Northern Hemisphere. I lost my receipt. The museum exhibit was fascinating."
+    },
+    {
+      "item_id": "cal-173",
+      "variant_class": "padding",
+      "label": 1,
+      "p_original": 0.93,
+      "p_new": 0.43,
+      "abs_shift": 0.5,
+      "flipped": true,
+      "variant_text": "Water does not boil at zero degrees Celsius. The bus was on time today. I forgot my reusable bag."
+    },
+    {
+      "item_id": "cal-068",
+      "variant_class": "padding",
+      "label": 1,
+      "p_original": 0.94,
+      "p_new": 0.45,
+      "abs_shift": 0.48999999999999994,
+      "flipped": true,
+      "variant_text": "Eleven squared equals one hundred twenty-one. My houseplant finally has a new leaf. The new season of that show just started."
+    },
+    {
+      "item_id": "cal-177",
+      "variant_class": "padding",
+      "label": 1,
+      "p_original": 0.95,
+      "p_new": 0.46,
+      "abs_shift": 0.48999999999999994,
+      "flipped": true,
+      "variant_text": "Seven times eight is not fifty-four. The bakery ran out of bagels. My alarm didn't go off."
+    },
+    {
+      "item_id": "cal-183",
+      "variant_class": "padding",
+      "label": 1,
+      "p_original": 0.94,
+      "p_new": 0.45,
+      "abs_shift": 0.48999999999999994,
+      "flipped": true,
+      "variant_text": "The Sun does not orbit the Earth. My flight was delayed by an hour. The coffee shop has new pastries."
+    },
+    {
+      "item_id": "cal-005",
+      "variant_class": "padding",
+      "label": 1,
+      "p_original": 0.93,
+      "p_new": 0.45,
+      "abs_shift": 0.48000000000000004,
+      "flipped": true,
+      "variant_text": "Australia is both a country and a continent. My neighbor's cat knocked over a plant this morning. The bus arrived seven minutes late yesterday."
+    },
+    {
+      "item_id": "cal-011",
+      "variant_class": "padding",
+      "label": 1,
+      "p_original": 0.93,
+      "p_new": 0.45,
+      "abs_shift": 0.48000000000000004,
+      "flipped": true,
+      "variant_text": "Egypt is in Africa. I need to buy groceries later today. The library closes at nine on Fridays."
+    },
+    {
+      "item_id": "cal-171",
+      "variant_class": "padding",
+      "label": 1,
+      "p_original": 0.92,
+      "p_new": 0.44,
+      "abs_shift": 0.48000000000000004,
+      "flipped": true,
+      "variant_text": "Paris is not the capital of Italy. My sister called last night. The pancakes were delicious."
+    }
+  ]
+}

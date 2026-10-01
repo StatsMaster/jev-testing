@@ -1,0 +1,179 @@
+{
+  "phase": 6,
+  "name": "decision value via threshold tuning",
+  "date": "2026-09-30",
+  "seed": 20260930,
+  "n_items": 200,
+  "n_repeats_per_scenario": 200,
+  "split": "stratified 100 tuning / 100 holdout by (label, difficulty)",
+  "threshold_grid": {
+    "min": 0.01,
+    "max": 0.99,
+    "step": 0.01
+  },
+  "cost_basis": "expected cost per decision in cost units (FP cost = c_fp, FN cost = c_fn)",
+  "confusion_matrix_at_0.5_full_data": {
+    "tp": 95,
+    "fp": 4,
+    "fn": 0,
+    "tn": 101
+  },
+  "accuracy_at_0.5_full_data": 0.98,
+  "scenarios": [
+    {
+      "cost_ratio_fp_fn": "1:1",
+      "c_fp": 1,
+      "c_fn": 1,
+      "theoretical_threshold": 0.5,
+      "n_repeats": 200,
+      "holdout_expected_cost_per_decision": {
+        "tuned_threshold": {
+          "mean": 0.02043689320388349,
+          "std": 0.014547567777878464
+        },
+        "naive_0.5": {
+          "mean": 0.020339805825242717,
+          "std": 0.009664606731116953
+        },
+        "always_yes": {
+          "mean": 0.5242718446601942,
+          "std": 0.0
+        },
+        "always_no": {
+          "mean": 0.47572815533980584,
+          "std": 0.0
+        }
+      },
+      "chosen_threshold": {
+        "mean": 0.57885,
+        "std": 0.057965311928209896
+      },
+      "fraction_tuned_beats_naive": 0.465,
+      "fraction_tuned_leq_naive": 0.85
+    },
+    {
+      "cost_ratio_fp_fn": "3:1",
+      "c_fp": 3,
+      "c_fn": 1,
+      "theoretical_threshold": 0.75,
+      "n_repeats": 200,
+      "holdout_expected_cost_per_decision": {
+        "tuned_threshold": {
+          "mean": 0.05781553398058253,
+          "std": 0.02256101554896848
+        },
+        "naive_0.5": {
+          "mean": 0.05723300970873787,
+          "std": 0.029399725685040717
+        },
+        "always_yes": {
+          "mean": 1.5728155339805823,
+          "std": 0.0
+        },
+        "always_no": {
+          "mean": 0.47572815533980584,
+          "std": 0.0
+        }
+      },
+      "chosen_threshold": {
+        "mean": 0.6553999999999999,
+        "std": 0.0842277362736821
+      },
+      "fraction_tuned_beats_naive": 0.37,
+      "fraction_tuned_leq_naive": 0.63
+    },
+    {
+      "cost_ratio_fp_fn": "10:1",
+      "c_fp": 10,
+      "c_fn": 1,
+      "theoretical_threshold": 0.9091,
+      "n_repeats": 200,
+      "holdout_expected_cost_per_decision": {
+        "tuned_threshold": {
+          "mean": 0.16446601941747574,
+          "std": 0.10029647821471811
+        },
+        "naive_0.5": {
+          "mean": 0.2145631067961165,
+          "std": 0.10001442209842398
+        },
+        "always_yes": {
+          "mean": 5.242718446601942,
+          "std": 0.0
+        },
+        "always_no": {
+          "mean": 0.47572815533980584,
+          "std": 0.0
+        }
+      },
+      "chosen_threshold": {
+        "mean": 0.67795,
+        "std": 0.08630492570534444
+      },
+      "fraction_tuned_beats_naive": 0.64,
+      "fraction_tuned_leq_naive": 0.76
+    },
+    {
+      "cost_ratio_fp_fn": "1:3",
+      "c_fp": 1,
+      "c_fn": 3,
+      "theoretical_threshold": 0.25,
+      "n_repeats": 200,
+      "holdout_expected_cost_per_decision": {
+        "tuned_threshold": {
+          "mean": 0.026650485436893204,
+          "std": 0.032645777294491064
+        },
+        "naive_0.5": {
+          "mean": 0.019563106796116506,
+          "std": 0.009460529217255077
+        },
+        "always_yes": {
+          "mean": 0.5242718446601942,
+          "std": 0.0
+        },
+        "always_no": {
+          "mean": 1.4271844660194177,
+          "std": 0.0
+        }
+      },
+      "chosen_threshold": {
+        "mean": 0.5671499999999999,
+        "std": 0.05847627616710778
+      },
+      "fraction_tuned_beats_naive": 0.375,
+      "fraction_tuned_leq_naive": 0.81
+    },
+    {
+      "cost_ratio_fp_fn": "1:10",
+      "c_fp": 1,
+      "c_fn": 10,
+      "theoretical_threshold": 0.0909,
+      "n_repeats": 200,
+      "holdout_expected_cost_per_decision": {
+        "tuned_threshold": {
+          "mean": 0.053203883495145626,
+          "std": 0.10193284925049566
+        },
+        "naive_0.5": {
+          "mean": 0.019563106796116506,
+          "std": 0.009051129901541971
+        },
+        "always_yes": {
+          "mean": 0.5242718446601942,
+          "std": 0.0
+        },
+        "always_no": {
+          "mean": 4.757281553398058,
+          "std": 0.0
+        }
+      },
+      "chosen_threshold": {
+        "mean": 0.5737,
+        "std": 0.05572103885297069
+      },
+      "fraction_tuned_beats_naive": 0.35,
+      "fraction_tuned_leq_naive": 0.82
+    }
+  ]
+}
