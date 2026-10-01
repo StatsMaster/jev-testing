@@ -1,0 +1,434 @@
+[
+ {
+  "id": "cal-005",
+  "text": "Australia is both a country and a continent.",
+  "true_label": 1,
+  "domain": "geography",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.93
+ },
+ {
+  "id": "cal-011",
+  "text": "Egypt is in Africa.",
+  "true_label": 1,
+  "domain": "geography",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.93
+ },
+ {
+  "id": "cal-013",
+  "text": "Iceland is an island nation in the North Atlantic.",
+  "true_label": 1,
+  "domain": "geography",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.62
+ },
+ {
+  "id": "cal-027",
+  "text": "The capital of Australia is Sydney.",
+  "true_label": 0,
+  "domain": "geography",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.06
+ },
+ {
+  "id": "cal-028",
+  "text": "Mount Kilimanjaro is in Asia.",
+  "true_label": 0,
+  "domain": "geography",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.02
+ },
+ {
+  "id": "cal-046",
+  "text": "Thailand is an island in the Pacific Ocean.",
+  "true_label": 0,
+  "domain": "geography",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.02
+ },
+ {
+  "id": "cal-054",
+  "text": "Fifteen minus eight equals seven.",
+  "true_label": 1,
+  "domain": "arithmetic",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.94
+ },
+ {
+  "id": "cal-062",
+  "text": "Twenty-three plus nineteen equals forty-two.",
+  "true_label": 1,
+  "domain": "arithmetic",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.91
+ },
+ {
+  "id": "cal-068",
+  "text": "Eleven squared equals one hundred twenty-one.",
+  "true_label": 1,
+  "domain": "arithmetic",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.94
+ },
+ {
+  "id": "cal-077",
+  "text": "Nine times six equals fifty-two.",
+  "true_label": 0,
+  "domain": "arithmetic",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.03
+ },
+ {
+  "id": "cal-092",
+  "text": "Fifty divided by five equals twelve.",
+  "true_label": 0,
+  "domain": "arithmetic",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.04
+ },
+ {
+  "id": "cal-094",
+  "text": "Thirty-six minus fourteen equals twenty.",
+  "true_label": 0,
+  "domain": "arithmetic",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.87
+ },
+ {
+  "id": "cal-102",
+  "text": "A bicycle has two wheels.",
+  "true_label": 1,
+  "domain": "commonsense",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.8
+ },
+ {
+  "id": "cal-107",
+  "text": "A week has seven days.",
+  "true_label": 1,
+  "domain": "commonsense",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.85
+ },
+ {
+  "id": "cal-128",
+  "text": "Cats bark.",
+  "true_label": 0,
+  "domain": "commonsense",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.06
+ },
+ {
+  "id": "cal-139",
+  "text": "Milk comes from rocks.",
+  "true_label": 0,
+  "domain": "commonsense",
+  "difficulty": "easy",
+  "label_note": "",
+  "p_original": 0.03
+ },
+ {
+  "id": "cal-151",
+  "text": "A tomato is a vegetable.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Botanically a fruit; 'vegetable' is the culinary usage.",
+  "p_original": 0.5
+ },
+ {
+  "id": "cal-152",
+  "text": "Lightning never strikes the same place twice.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "It regularly strikes tall structures repeatedly.",
+  "p_original": 0.07
+ },
+ {
+  "id": "cal-154",
+  "text": "Humans only use ten percent of their brains.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Neuromyth; the whole brain is active.",
+  "p_original": 0.03
+ },
+ {
+  "id": "cal-155",
+  "text": "Cracking your knuckles causes arthritis.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "No causal evidence in the literature.",
+  "p_original": 0.07
+ },
+ {
+  "id": "cal-156",
+  "text": "Bulls are enraged by the color red.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Cattle are red-green colorblind; movement provokes them.",
+  "p_original": 0.13
+ },
+ {
+  "id": "cal-157",
+  "text": "Shaving makes hair grow back thicker.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Stubble only feels coarser.",
+  "p_original": 0.07
+ },
+ {
+  "id": "cal-158",
+  "text": "The Great Wall of China is visible from the Moon with the naked eye.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Astronauts confirm it is not.",
+  "p_original": 0.04
+ },
+ {
+  "id": "cal-159",
+  "text": "Dogs see only in black and white.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Dogs have dichromatic (blue/yellow) vision.",
+  "p_original": 0.07
+ },
+ {
+  "id": "cal-161",
+  "text": "Albert Einstein failed mathematics in school.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "His grades in math were excellent.",
+  "p_original": 0.05
+ },
+ {
+  "id": "cal-162",
+  "text": "Vikings wore horned helmets into battle.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "No archaeological evidence; a 19th-century invention.",
+  "p_original": 0.05
+ },
+ {
+  "id": "cal-164",
+  "text": "Bats are blind.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Most bats can see; many see well.",
+  "p_original": 0.07
+ },
+ {
+  "id": "cal-165",
+  "text": "You lose most of your body heat through your head.",
+  "true_label": 0,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Heat loss is proportional to exposed area.",
+  "p_original": 0.11
+ },
+ {
+  "id": "cal-166",
+  "text": "Honey never spoils.",
+  "true_label": 1,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Edible honey has been found in ancient Egyptian tombs.",
+  "p_original": 0.79
+ },
+ {
+  "id": "cal-168",
+  "text": "Hot water can freeze faster than cold water.",
+  "true_label": 1,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "The Mpemba effect, under some conditions.",
+  "p_original": 0.65
+ },
+ {
+  "id": "cal-169",
+  "text": "Bananas are slightly radioactive.",
+  "true_label": 1,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "They contain potassium-40.",
+  "p_original": 0.9
+ },
+ {
+  "id": "cal-170",
+  "text": "Oxford University is older than the Aztec Empire.",
+  "true_label": 1,
+  "domain": "myths",
+  "difficulty": "ambiguous",
+  "label_note": "Teaching at Oxford dates to 1096; Tenochtitlan founded 1325.",
+  "p_original": 0.88
+ },
+ {
+  "id": "cal-171",
+  "text": "Paris is not the capital of Italy.",
+  "true_label": 1,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.92
+ },
+ {
+  "id": "cal-172",
+  "text": "The Moon is not made of cheese.",
+  "true_label": 1,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.89
+ },
+ {
+  "id": "cal-173",
+  "text": "Water does not boil at zero degrees Celsius.",
+  "true_label": 1,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.93
+ },
+ {
+  "id": "cal-175",
+  "text": "Sharks are not mammals.",
+  "true_label": 1,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.9
+ },
+ {
+  "id": "cal-177",
+  "text": "Seven times eight is not fifty-four.",
+  "true_label": 1,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.95
+ },
+ {
+  "id": "cal-179",
+  "text": "Humans do not have four lungs.",
+  "true_label": 1,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.94
+ },
+ {
+  "id": "cal-183",
+  "text": "The Sun does not orbit the Earth.",
+  "true_label": 1,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.94
+ },
+ {
+  "id": "cal-184",
+  "text": "Antarctica is not in the Northern Hemisphere.",
+  "true_label": 1,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.96
+ },
+ {
+  "id": "cal-187",
+  "text": "Water does not freeze at zero degrees Celsius.",
+  "true_label": 0,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.1
+ },
+ {
+  "id": "cal-188",
+  "text": "The Earth is not round.",
+  "true_label": 0,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.14
+ },
+ {
+  "id": "cal-189",
+  "text": "Seven plus five is not twelve.",
+  "true_label": 0,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.04
+ },
+ {
+  "id": "cal-190",
+  "text": "Humans do not need oxygen to survive.",
+  "true_label": 0,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.02
+ },
+ {
+  "id": "cal-191",
+  "text": "The Sun does not rise in the east.",
+  "true_label": 0,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.09
+ },
+ {
+  "id": "cal-194",
+  "text": "Two plus two is not four.",
+  "true_label": 0,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.04
+ },
+ {
+  "id": "cal-195",
+  "text": "Penguins are not birds.",
+  "true_label": 0,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.04
+ },
+ {
+  "id": "cal-196",
+  "text": "The Nile is not a river.",
+  "true_label": 0,
+  "domain": "negation",
+  "difficulty": "negated",
+  "label_note": "",
+  "p_original": 0.09
+ }
+]
